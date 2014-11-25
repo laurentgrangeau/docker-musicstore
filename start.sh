@@ -2,4 +2,5 @@
 
 cd /MusicStore/src/MusicStore
 kpm restore
-k kestrel
+NOHUP k kestrel &
+tail -f /var/log/dpkg.log
