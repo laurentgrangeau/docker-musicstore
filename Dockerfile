@@ -8,4 +8,6 @@ EXPOSE 5004:5004
 
 ADD start.sh /
 
+RUN chmod 0755 /start.sh
+
 CMD ["/start.sh"]
