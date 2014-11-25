@@ -2,4 +2,4 @@
 
 cd /MusicStore/src/MusicStore
 kpm restore
-k web
+k kestrel
